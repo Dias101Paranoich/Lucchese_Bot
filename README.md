@@ -64,7 +64,7 @@
 
 1. **Клонируйте репозиторий**  
    ```bash
-   git clone https://github.com/yourname/lucchese-bot.git
+   git clone https://github.com/dias101paranoich/lucchese-bot.git
    cd lucchese-bot
    ```
 
