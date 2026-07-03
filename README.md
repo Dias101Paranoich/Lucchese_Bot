@@ -78,37 +78,6 @@
 - Discord Bot Token
 - (Опционально) Telegram Bot Token
 
-### Установка
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/Dias101Paranoich/Lucchese_Bot.git
-cd Lucchese_Bot
-```
-
-2. Установите зависимости:
-```bash
-pip install -r requirements.txt
-```
-
-3. Создайте файл `.env` на основе `.env.example`:
-```env
-DISCORD_TOKEN=ваш_токен
-CREATOR_ID=ваш_discord_id
-TRUSTED_USERS=id1,id2,...
-# ... остальные переменные
-```
-
-4. Запустите бота:
-```bash
-python bot.py
-```
-
-### Telegram-бот (опционально)
-Для запуска Telegram-бота выполните:
-```bash
-python telegram_bot.py
-```
-
 ## 📁 Структура проекта
 
 | Файл | Описание |
@@ -159,14 +128,8 @@ python telegram_bot.py
 - **SQLite** — оплата (`house_payments.db`), ответственные (`responsibles.db`), профили (`profiles.db`).
 - Все данные хранятся локально в папке с ботом.
 
-## 🤝 Лицензия
-
-MIT License. Используйте на свой страх и риск.
-
 ---
 
 **Автор:** @dias_konst  
 **Версия:** v3.0 (текущая)
 ```
-
-Этот README полностью соответствует актуальному коду бота, описанному в предоставленных файлах. Вы можете скопировать его в ваш репозиторий, заменив старый файл.
